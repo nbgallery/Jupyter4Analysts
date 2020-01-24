@@ -3,7 +3,7 @@ jupyter nbextension enable --py voila --sys-prefix
 jupyter serverextension enable voila --sys-prefix
 jupyter dashboards quick-setup --sys-prefix
 jupyter nbextension install --py jupyter_nbgallery --sys-prefix
-jupyter nbextenstion enable --section notebook jupyter_nbgallery/easy_buttons/easy_buttons --sys-prefix
+jupyter nbextension enable --section notebook jupyter_nbgallery/easy_buttons/easy_buttons --sys-prefix
 mkdir -p ~/.jupyter/nbconfig
 echo '{"nbgallery":{"easy_buttons":true}}' > ~/.jupyter/nbconfig/common.json
 
