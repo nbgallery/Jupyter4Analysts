@@ -1,0 +1,10 @@
+ipydeps
+ipython_blocking
+ipywidgets
+jupyter_nbgallery
+lxml
+matplotlib
+pandas
+plotly
+voila
+yfinance

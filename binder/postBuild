@@ -1,0 +1,10 @@
+jupyter nbextension install --py voila --sys-prefix
+jupyter nbextension enable --py voila --sys-prefix
+jupyter serverextension enable voila --sys-prefix
+jupyter dashboards quick-setup --sys-prefix
+jupyter nbextension install --py jupyter_nbgallery --sys-prefix
+jupyter nbextenstion enable --section notebook jupyter_nbgallery/easy_buttons/easy_buttons --sys-prefixmkdir -p ~/.jupyter/nbconfig
+echo '{"nbgallery":{"easy_buttons":true}}' > ~/.jupyter/nbconfig/common.json
+
+gem install --no-document --user-install ffi-rzmq iruby iruby-dependencies erector httparty
+~/.gem/ruby/*/bin/iruby register
