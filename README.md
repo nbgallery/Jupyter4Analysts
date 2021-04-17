@@ -8,4 +8,4 @@ Jupyter 4 Analysts is a course about how to **use** Jupyter notebooks. No coding
 ### Launch the Jupyter 4 Analysts (J4A) course
 Click on the 'Binder' button below to Launch J4A!
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nbgallery/Jupyter4Analysts/master?filepath=Jupyter%204%20Analysts%20(J4A).ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nbgallery/Jupyter4Analysts/main?filepath=Jupyter%204%20Analysts%20(J4A).ipynb)
